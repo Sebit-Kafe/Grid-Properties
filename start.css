@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+
+  body{
+    padding: 35px;
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "one one one"
+    "two three four"
+    "five five four";
+    
+  }
